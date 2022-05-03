@@ -5,8 +5,8 @@ close all; clear all;
 gamma_vec = [0; 0; 0.5]; 
 b0_vec    = [1.1*(1/120); 1.1*(1/120); 1.1*(1/120)];
 d0_vec    = [0.1*(1/120); 0.1*(1/120); 0.1*(1/120)];
-K_vec     = [1e3; 0.5*1e3; 0.5*1e3];
-binsz_orig = 10;
+K_vec     = [1e5; 0.5*1e5; 0.5*1e5];
+binsz_orig = 1e3;
 
 for i = 1:3
     switch i 
